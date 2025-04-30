@@ -1,6 +1,7 @@
-# Blog Esportivo
+-- BLOG ESPORTIVO COM JAVA SPRING BOOT PARA A MATERIA DE DESENVOLVIMENTO DE APLICATIVO WEB I
 
 Este é um projeto Spring Boot para um blog esportivo.
+--
 
 ## Tecnologias Utilizadas
 
