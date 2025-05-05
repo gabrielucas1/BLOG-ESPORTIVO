@@ -27,35 +27,6 @@ Entidades Identificadas:
       - Uma curtida pertence a um usuário.
 
 
-//
-model
-Usuario
---id
---nome
---email
---Lista de postagens,comentarios e curtidas
-
-
-Postagem
---id
---titulo
---conteudo
-Lista de curtidas e comentarios
-
-Curtidas
---id
-
-Categoria
---id
---conteudo
---Lista de postagens
-
-Comentario
---id
---texto
-
-
-//
 Próximos Passos
 ------------------
 Criar os repositórios:
