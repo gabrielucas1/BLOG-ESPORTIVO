@@ -1,0 +1,60 @@
+Entidades Identificadas:
+
+1. Usuário (Usuario):
+    - Relacionamentos:
+      - Um usuário pode criar várias postagens.
+      - Um usuário pode fazer vários comentários.
+      - Um usuário pode curtir várias postagens.
+
+2. Postagem (Postagem):
+    - Relacionamentos:
+      - Uma postagem pertence a uma categoria.
+      - Uma postagem pode ter vários comentários.
+      - Uma postagem pode receber várias curtidas.
+
+3. Categoria (Categoria):
+    - Relacionamentos:
+      - Uma categoria pode ter várias postagens.
+
+4. Comentário (Comentario):
+    - Relacionamentos:
+      - Um comentário pertence a uma postagem.
+      - Um comentário pertence a um usuário.
+
+5. Curtida (Curtida):
+    - Relacionamentos:
+      - Uma curtida pertence a uma postagem.
+      - Uma curtida pertence a um usuário.
+
+
+Próximos Passos
+------------------
+Criar os repositórios:
+-------------------
+UsuarioRepository
+PostagemRepository
+CategoriaRepository
+ComentarioRepository
+CurtidaRepository
+
+------------------
+Criar os serviços:
+------------------
+UsuarioService
+PostagemService
+CategoriaService
+ComentarioService
+CurtidaService
+
+------------------
+
+Criar os controladores:
+------------------
+
+UsuarioController
+PostagemController
+CategoriaController
+ComentarioController
+CurtidaController
+
+
